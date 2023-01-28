@@ -8,7 +8,7 @@ def processing_request(callback):
             callback.message.chat.id, 
             "Оформлено"
         )
-        #modules.bot_start.bot.send_message(
-        #    chat_id=-1001883504324, 
-        #    text="Нове замовлення"
-        #)
+        modules.bot_start.bot.send_message(
+            chat_id=-1001883504324, 
+            text="Нове замовлення"
+        )
